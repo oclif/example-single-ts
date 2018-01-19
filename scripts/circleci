@@ -31,5 +31,5 @@ if [[ "$CLI_ENGINE_GREENKEEPER_BRANCH" == 1 ]]; then
 fi
 
 mkdir -p reports
-nps ci
+./node_modules/.bin/nps ci
 curl -s https://codecov.io/bash | bash
