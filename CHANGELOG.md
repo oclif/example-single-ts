@@ -1,3 +1,12 @@
+<a name="0.0.3"></a>
+## [0.0.3](https://github.com/dxcli/example-single-cli-typescript/compare/7ab7441a15f527229bcce04bc4150c279423e4d0...v0.0.3) (2018-01-27)
+
+
+### Bug Fixes
+
+* create-dxcli 0.25.0 ([90224d5](https://github.com/dxcli/example-single-cli-typescript/commit/90224d5))
+* create-dxcli 0.25.1 ([8a6865d](https://github.com/dxcli/example-single-cli-typescript/commit/8a6865d))
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/dxcli/example-single-cli-typescript/compare/38331def48c6d41e88e90b3991673247a4c05ea8...v0.0.2) (2018-01-27)
 
