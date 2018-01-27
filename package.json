@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/example-single-cli-typescript",
   "description": "example single command CLI built with dxcli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-single-cli-typescript/issues",
   "dependencies": {
