@@ -48,7 +48,7 @@ jobs:
 
 workflows:
   version: 2
-  "@dxcli/example-single-cli-typescript":
+  "@dxcli/example-single-ts":
     jobs:
       - node-latest
       - node-8
