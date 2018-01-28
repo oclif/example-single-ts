@@ -7,7 +7,6 @@
   "dependencies": {
     "@dxcli/command": "^0.1.23",
     "@dxcli/config": "^0.1.27",
-    "@dxcli/parser": "^0.0.5",
     "cli-ux": "^3.2.2"
   },
   "devDependencies": {
