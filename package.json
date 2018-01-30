@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/example-single-ts",
   "description": "example single command CLI built with dxcli",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-single-ts/issues",
   "dependencies": {
