@@ -1,3 +1,11 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/dxcli/example-single-ts/compare/dbd9e3b37bc60322d7a71ba8559c6082252e5a11...v0.1.4) (2018-01-30)
+
+
+### Bug Fixes
+
+* create-dxcli v0.28.7 ([5337d4e](https://github.com/dxcli/example-single-ts/commit/5337d4e))
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/dxcli/example-single-ts/compare/1ac9ee1dee19036120695ee56f520cb6c7b33d00...v0.1.3) (2018-01-30)
 
