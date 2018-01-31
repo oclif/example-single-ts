@@ -40,7 +40,7 @@ jobs:
 
 workflows:
   version: 2
-  "@dxcli/example-single-ts":
+  "@anycli/example-single-ts":
     jobs:
       - node-latest
       - node-8
