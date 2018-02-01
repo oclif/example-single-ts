@@ -6,7 +6,7 @@
   "anycli": {},
   "bugs": "https://github.com/anycli/example-single-ts/issues",
   "dependencies": {
-    "@anycli/command": "^0.2.24",
+    "@anycli/command": "^0.3.0",
     "@anycli/config": "^0.2.8",
     "cli-ux": "^3.3.12"
   },
