@@ -2,16 +2,20 @@ import {expect, test} from '@anycli/test'
 
 import cmd from '../src'
 
-describe('command', () => {
+const command = 'hello'
+
+describe(command, () => {
   test
   .stdout()
-  .do(() => cmd.run([]))
-  .do(output => expect(output.stdout).to.equal('hello world!\n'))
-  .it('says hello world!')
+    .do(() => cmd.run([]))
+  .it('runs hello', ctx => {
+    expect(ctx.stdout).to.contain('hello world from hello!')
+  })
 
   test
   .stdout()
-  .do(() => cmd.run(['--name', 'jeff']))
-  .do(output => expect(output.stdout).to.equal('hello jeff!\n'))
-  .it('says hello jeff!')
+    .do(() => cmd.run(['--name', 'jeff']))
+  .it('runs hello --name jeff', ctx => {
+    expect(ctx.stdout).to.contain('hello jeff from hello!')
+  })
 })
