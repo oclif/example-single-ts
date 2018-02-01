@@ -1,3 +1,11 @@
+<a name="0.6.3"></a>
+## [0.6.3](https://github.com/anycli/example-single-ts/compare/d514a4d39690c58eddf857c956344a0d460c1a23...v0.6.3) (2018-02-01)
+
+
+### Bug Fixes
+
+* anycli v0.30.6 ([971e8ac](https://github.com/anycli/example-single-ts/commit/971e8ac))
+
 <a name="0.6.2"></a>
 ## [0.6.2](https://github.com/anycli/example-single-ts/compare/ffc580e84a523dfc45eed1eca7b18d61c998f359...v0.6.2) (2018-02-01)
 
