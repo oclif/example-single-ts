@@ -1,7 +1,7 @@
 import {Command, flags, parse} from '@anycli/command'
 import cli from 'cli-ux'
 
-export default class AnycliExampleSingleTs extends Command {
+class AnycliExampleSingleTs extends Command {
   static title = 'scaffolded command that says hello'
 
   // usage is set by default
@@ -93,3 +93,5 @@ hello myname from @anycli/example-single-ts!
     // this.options.args.file and this.options.argv[0] is a string or undefined
   }
 }
+
+export = AnycliExampleSingleTs

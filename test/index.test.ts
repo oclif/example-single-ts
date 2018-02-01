@@ -1,6 +1,6 @@
 import {expect, test} from '@anycli/test'
 
-import cmd from '../src'
+import cmd = require('../src')
 
 const command = '@anycli/example-single-ts'
 
