@@ -1,7 +1,7 @@
 import {Command, flags, parse} from '@anycli/command'
 import cli from 'cli-ux'
 
-export default class Hello extends Command {
+export default class AnycliExampleSingleTs extends Command {
   static title = 'scaffolded command that says hello'
 
   // usage is set by default
@@ -17,16 +17,22 @@ Add a longer description here
 
   static examples = [
     `$ example-single-ts
-hello world from hello!
+hello world from @anycli/example-single-ts!
 `,
     `$ example-single-ts --name myname
-hello myname from hello!
+hello myname from @anycli/example-single-ts!
 `,
     '$ example-single-ts file outputs "hello world!" to file',
     '$ example-single-ts --force',
+    '$ example-single-ts --help',
   ]
 
   static flags = {
+    // add --version flag to show CLI version
+    version: flags.version(),
+    // add --help flag to show CLI version
+    help: flags.help(),
+
     // flag with a value (-n, --name=VALUE)
     name: flags.string({
       char: 'n',                    // shorter flag version
@@ -76,12 +82,12 @@ hello myname from hello!
   // but also in options.argv as an array
   // you can get the raw args passed to the command with this.argv
   // or from this.options.argv which will remove any args that were actually flags
-  options = parse(this.argv, Hello)
+  options = parse(this.argv, AnycliExampleSingleTs)
 
   // entry point of command
   async run() {
     const name = this.options.flags.name || 'world'
-    cli.log(`hello ${name} from hello!`)
+    cli.log(`hello ${name} from @anycli/example-single-ts!`)
 
     // this.options.flags.force is a boolean
     // this.options.args.file and this.options.argv[0] is a string or undefined
