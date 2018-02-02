@@ -3,6 +3,12 @@
   "description": "example single command CLI built with dxcli",
   "version": "0.8.8",
   "author": "Jeff Dickey @jdxcode",
+  "anycli": {
+    "bin": "example-single-ts"
+  },
+  "bin": {
+    "example-single-ts": "./bin/run"
+  },
   "bugs": "https://github.com/anycli/example-single-ts/issues",
   "dependencies": {
     "@anycli/command": "^0.3.6",
@@ -32,6 +38,7 @@
     "node": ">=8.0.0"
   },
   "files": [
+    "/bin",
     "/lib"
   ],
   "homepage": "https://github.com/anycli/example-single-ts",
