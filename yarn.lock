@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@anycli/command@^0.3.6", "@anycli/command@^0.3.7":
+"@anycli/command@^0.3.7":
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.7.tgz#293c366ed8227fcdc675e278a46d8f93435526a5"
   dependencies:
@@ -31,14 +31,14 @@
     chalk "^2.3.0"
     lodash "^4.17.4"
 
-"@anycli/plugin-help@^0.3.7":
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/@anycli/plugin-help/-/plugin-help-0.3.7.tgz#aefde35b0b49b1598e893ed83910955bd24419ef"
+"@anycli/plugin-help@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@anycli/plugin-help/-/plugin-help-0.4.1.tgz#ee8aaaa8cf611f77d10725a6f5e27163e4ff95c4"
   dependencies:
-    "@anycli/command" "^0.3.6"
+    "@anycli/command" "^0.3.7"
     "@anycli/screen" "^0.0.3"
     chalk "^2.3.0"
-    cli-ux "^3.3.12"
+    cli-ux "^3.3.13"
     indent-string "^3.2.0"
     lodash "^4.17.4"
     string-width "^2.1.1"
@@ -309,7 +309,7 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-ux@^3.3.10, cli-ux@^3.3.12, cli-ux@^3.3.13:
+cli-ux@^3.3.10, cli-ux@^3.3.13:
   version "3.3.13"
   resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.3.13.tgz#123e0c7a29d1f743447b919500a9055486992df6"
   dependencies:
@@ -1446,8 +1446,8 @@ tsutils@^1.4.0:
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-1.9.1.tgz#b9f9ab44e55af9681831d5f28d0aeeaf5c750cb0"
 
 tsutils@^2.12.1, tsutils@^2.12.2:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.20.0.tgz#303394064bc80be8ee04e10b8609ae852e9312d3"
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.21.0.tgz#43466a2283a0abce64e2209bc732ad72f8a04fab"
   dependencies:
     tslib "^1.8.1"
 
