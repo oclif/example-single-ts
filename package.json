@@ -1,7 +1,7 @@
 {
   "name": "@anycli/example-single-ts",
   "description": "example single command CLI built with dxcli",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "author": "Jeff Dickey @jdxcode",
   "anycli": {
     "bin": "example-single-ts"
