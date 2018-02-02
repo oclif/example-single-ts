@@ -14,7 +14,7 @@
     "@anycli/command": "^0.3.6",
     "@anycli/config": "^0.2.11",
     "@anycli/plugin-help": "^0.3.7",
-    "cli-ux": "^3.3.12"
+    "cli-ux": "^3.3.13"
   },
   "devDependencies": {
     "@anycli/test": "^0.10.3",
