@@ -56,9 +56,9 @@
     fancy-test "^0.6.6"
     lodash "^4.17.4"
 
-"@anycli/tslint@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@anycli/tslint/-/tslint-0.2.1.tgz#17295a3a4c579884cd3aea7ed1d8c07d11ecc624"
+"@anycli/tslint@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@anycli/tslint/-/tslint-0.2.2.tgz#46e899f58019600fc6a7191e7fde47d6b4513df1"
   dependencies:
     tslint "^5.9.1"
     tslint-xo "^0.6.0"
