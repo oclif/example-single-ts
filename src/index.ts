@@ -1,4 +1,4 @@
-import {Command, flags, parse} from '@anycli/command'
+import {Command, flags} from '@anycli/command'
 import cli from 'cli-ux'
 
 class AnycliExampleSingleTs extends Command {
@@ -72,25 +72,15 @@ hello myname from @anycli/example-single-ts!
   // set it to off if you need to accept variable arguments
   // static strict = false
 
-  // runs the parser and stores the results in this.options
-  // you should run this even if you have no flags/args so it properly errors out
-  // (see strict above for variable argument commands)
-  //
-  // stores the parsed flags in options.flags[name]
-  //
-  // stores the parsed args in options.args[name] as an object
-  // but also in options.argv as an array
-  // you can get the raw args passed to the command with this.argv
-  // or from this.options.argv which will remove any args that were actually flags
-  options = parse(this.argv, AnycliExampleSingleTs)
-
   // entry point of command
   async run() {
-    const name = this.options.flags.name || 'world'
-    cli.log(`hello ${name} from @anycli/example-single-ts!`)
+    const {args, flags} = this.parse(AnycliExampleSingleTs)
 
-    // this.options.flags.force is a boolean
-    // this.options.args.file and this.options.argv[0] is a string or undefined
+    const name = flags.name || 'world'
+    cli.log(`hello ${name} from @anycli/example-single-ts!`)
+    if (args.file && flags.force) {
+      cli.log(`you input ${args.file}`)
+    }
   }
 }
 
