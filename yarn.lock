@@ -312,9 +312,9 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-ux@^3.3.13:
-  version "3.3.13"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.3.13.tgz#123e0c7a29d1f743447b919500a9055486992df6"
+cli-ux@^3.3.13, cli-ux@^3.3.14:
+  version "3.3.14"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.3.14.tgz#f44df62046057f006e494627bb085082f6222fb7"
   dependencies:
     "@anycli/screen" "^0.0.3"
     "@heroku/linewrap" "^1.0.0"
@@ -947,8 +947,8 @@ lodash.zip@^4.2.0:
   resolved "https://registry.yarnpkg.com/lodash.zip/-/lodash.zip-4.2.0.tgz#ec6662e4896408ed4ab6c542a3990b72cc080020"
 
 lodash@^4.17.4, lodash@^4.3.0, lodash@^4.5.1:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
 lru-cache@^4.0.1:
   version "4.1.1"
