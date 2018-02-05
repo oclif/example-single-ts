@@ -1,5 +1,4 @@
 import {Command, flags} from '@anycli/command'
-import cli from 'cli-ux'
 
 class AnycliExampleSingleTs extends Command {
   static title = 'scaffolded command that says hello'
@@ -77,9 +76,9 @@ hello myname from @anycli/example-single-ts!
     const {args, flags} = this.parse(AnycliExampleSingleTs)
 
     const name = flags.name || 'world'
-    cli.log(`hello ${name} from @anycli/example-single-ts!`)
+    this.log(`hello ${name} from @anycli/example-single-ts!`)
     if (args.file && flags.force) {
-      cli.log(`you input ${args.file}`)
+      this.log(`you input ${args.file}`)
     }
   }
 }
