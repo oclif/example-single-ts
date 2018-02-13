@@ -26,9 +26,9 @@
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.2.8.tgz#2b2e35b5c075d200d70950923acd64e258c5ae1d"
 
-"@oclif/plugin-help@^0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-0.7.4.tgz#1b7903ad303bc9c2816e1f8a8275da051b2361f7"
+"@oclif/plugin-help@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.0.0.tgz#1a343922214bf62016ae57a89b2023e2f87e545a"
   dependencies:
     "@oclif/command" "^1.2.20"
     chalk "^2.3.1"
@@ -38,9 +38,9 @@
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
 
-"@oclif/test@^0.10.16":
-  version "0.10.16"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-0.10.16.tgz#3b8ec5240e6e49e8a3c81d8beb8bf20702f81bec"
+"@oclif/test@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.0.tgz#0f6458f18f89d316fcc50abf3ef020fb77dd06e2"
   dependencies:
     fancy-test "^1.0.1"
 
