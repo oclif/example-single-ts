@@ -1,6 +1,6 @@
-import {Command, flags} from '@anycli/command'
+import {Command, flags} from '@oclif/command'
 
-class AnycliExampleSingleTs extends Command {
+class OclifExampleSingleTs extends Command {
   static title = 'scaffolded command that says hello'
 
   // usage is set by default
@@ -16,10 +16,10 @@ Add a longer description here
 
   static examples = [
     `$ example-single-ts
-hello world from @anycli/example-single-ts!
+hello world from @oclif/example-single-ts!
 `,
     `$ example-single-ts --name myname
-hello myname from @anycli/example-single-ts!
+hello myname from @oclif/example-single-ts!
 `,
     '$ example-single-ts file outputs "hello world!" to file',
     '$ example-single-ts --force',
@@ -73,14 +73,14 @@ hello myname from @anycli/example-single-ts!
 
   // entry point of command
   async run() {
-    const {args, flags} = this.parse(AnycliExampleSingleTs)
+    const {args, flags} = this.parse(OclifExampleSingleTs)
 
     const name = flags.name || 'world'
-    this.log(`hello ${name} from @anycli/example-single-ts!`)
+    this.log(`hello ${name} from @oclif/example-single-ts!`)
     if (args.file && flags.force) {
       this.log(`you input ${args.file}`)
     }
   }
 }
 
-export = AnycliExampleSingleTs
+export = OclifExampleSingleTs

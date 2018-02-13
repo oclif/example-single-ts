@@ -1,19 +1,19 @@
-import {expect, test} from '@anycli/test'
+import {expect, test} from '@oclif/test'
 
 import cmd = require('../src')
 
-describe('@anycli/example-single-ts', () => {
+describe('@oclif/example-single-ts', () => {
   test
   .stdout()
   .do(() => cmd.run([]))
   .it('runs hello', ctx => {
-    expect(ctx.stdout).to.contain('hello world from @anycli/example-single-ts!')
+    expect(ctx.stdout).to.contain('hello world from @oclif/example-single-ts!')
   })
 
   test
   .stdout()
   .do(() => cmd.run(['--name', 'jeff']))
   .it('runs hello --name jeff', ctx => {
-    expect(ctx.stdout).to.contain('hello jeff from @anycli/example-single-ts!')
+    expect(ctx.stdout).to.contain('hello jeff from @oclif/example-single-ts!')
   })
 })
