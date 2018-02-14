@@ -12,6 +12,7 @@ example single command CLI built with dxcli
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-single-ts.svg)](https://npmjs.org/package/@oclif/example-single-ts)
 [![License](https://img.shields.io/npm/l/@oclif/example-single-ts.svg)](https://github.com/oclif/example-single-ts/blob/master/package.json)
 
+<!-- toc -->
 <!-- install -->
 <!-- usage -->
 <!-- commands -->
