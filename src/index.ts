@@ -19,7 +19,7 @@ hello world from @oclif/example-single-ts!
     `$ example-single-ts --name myname
 hello myname from @oclif/example-single-ts!
 `,
-    '$ example-single-ts file outputs "hello world!" to file',
+    '$ example-single-ts ./afile outputs "hello world!" to ./afile',
     '$ example-single-ts --force',
     '$ example-single-ts --help',
   ]
