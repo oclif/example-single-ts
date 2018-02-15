@@ -56,7 +56,7 @@ hello myname from .src/@oclif/example-single-ts.ts!
 
   static args = [
     {
-      name: 'file',                  // name of arg to show in help and reference with this.options.args[name]
+      name: 'file',                  // name of arg to show in help and reference with args[name]
       required: false,               // make the arg required with `required: true`
       description: 'file to output', // help description
       // hidden: true,               // hide this flag from help
