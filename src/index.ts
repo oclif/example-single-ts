@@ -14,10 +14,10 @@ Extra documentation goes here
 
   static examples = [
     `$ example-single-ts
-hello world from @oclif/example-single-ts!
+hello world from ./src/@oclif/example-single-ts.ts!
 `,
     `$ example-single-ts --name myname
-hello myname from @oclif/example-single-ts!
+hello myname from .src/@oclif/example-single-ts.ts!
 `,
     `$ example-single-ts ./afile
 # outputs "hello world!" to ./afile`,
@@ -75,7 +75,7 @@ hello myname from @oclif/example-single-ts!
     const {args, flags} = this.parse(OclifExampleSingleTs)
 
     const name = flags.name || 'world'
-    this.log(`hello ${name} from @oclif/example-single-ts!`)
+    this.log(`hello ${name} from ./src/@oclif/example-single-ts.ts!`)
     if (args.file && flags.force) {
       this.log(`you input ${args.file}`)
     }
