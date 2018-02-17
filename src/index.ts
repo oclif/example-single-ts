@@ -29,7 +29,7 @@ hello myname from .src/@oclif/example-single-ts.ts!
     const {args, flags} = this.parse(OclifExampleSingleTs)
 
     const name = flags.name || 'world'
-    this.log(`hello ${name} from ./src/@oclif/example-single-ts.ts!`)
+    this.log(`hello ${name} from ${__filename}!`)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
     }
