@@ -15,14 +15,13 @@
   },
   "devDependencies": {
     "@oclif/test": "^1.0.1",
-    "@oclif/tslint": "^1.0.2",
     "@types/chai": "^4.1.2",
     "@types/mocha": "^2.2.48",
     "@types/node": "^9.4.7",
     "chai": "^4.1.2",
     "mocha": "^5.0.4",
     "ts-node": "5",
-    "tslint": "^5.9.1",
+    "tslib": "^1.9.0",
     "typescript": "^2.7.2"
   },
   "engines": {
@@ -44,7 +43,7 @@
   "repository": "oclif/example-single-ts",
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "lint": "tsc -p test --noEmit && tslint -p test -t stylish",
+    "lint": "tsc -p test --noEmit",
     "posttest": "yarn run lint",
     "prepublishOnly": "yarn run build",
     "test": "mocha --forbid-only \"test/**/*.test.ts\""
