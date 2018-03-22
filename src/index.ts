@@ -7,9 +7,6 @@ class OclifExampleSingleTs extends Command {
     `$ example-single-ts
 hello world from ./src/@oclif/example-single-ts.ts!
 `,
-    `$ example-single-ts --name myname
-hello myname from .src/@oclif/example-single-ts.ts!
-`,
   ]
 
   static flags = {
