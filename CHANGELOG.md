@@ -1,3 +1,11 @@
+<a name="1.5.2"></a>
+## [1.5.2](https://github.com/oclif/example-single-ts/compare/2056b82df8f9984e8e11250e7f886e160b5aecc8...v1.5.2) (2018-03-23)
+
+
+### Bug Fixes
+
+* oclif v1.5.2 ([9d4dd56](https://github.com/oclif/example-single-ts/commit/9d4dd56))
+
 <a name="1.5.1"></a>
 ## [1.5.1](https://github.com/oclif/example-single-ts/compare/895dae9285920f68e3b01aeba3feaa7395b17e4f...v1.5.1) (2018-03-23)
 
