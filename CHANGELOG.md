@@ -1,3 +1,11 @@
+<a name="1.7.4"></a>
+## [1.7.4](https://github.com/oclif/example-single-ts/compare/v1.7.3...v1.7.4) (2018-03-24)
+
+
+### Bug Fixes
+
+* oclif v1.7.4 ([bc3b161](https://github.com/oclif/example-single-ts/commit/bc3b161))
+
 <a name="1.7.3"></a>
 ## [1.7.3](https://github.com/oclif/example-single-ts/compare/v1.7.2...v1.7.3) (2018-03-24)
 
