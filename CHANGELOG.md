@@ -1,3 +1,11 @@
+<a name="1.7.0"></a>
+# [1.7.0](https://github.com/oclif/example-single-ts/compare/b9e4079967734ca38c0c94af58f872cf277762b0...v1.7.0) (2018-03-24)
+
+
+### Features
+
+* oclif v1.7.0 ([20845ea](https://github.com/oclif/example-single-ts/commit/20845ea)), closes [oclif/oclif#69](https://github.com/oclif/oclif/issues/69)
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/oclif/example-single-ts/compare/4a6fc0646ea2e109ec4465b6187ef955806916c3...v1.6.0) (2018-03-24)
 
