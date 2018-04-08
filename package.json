@@ -41,9 +41,8 @@
   },
   "repository": "oclif/example-single-ts",
   "scripts": {
-    "build": "rm -rf lib && tsc",
     "posttest": "tsc -p test --noEmit",
-    "prepack": "yarn run build",
+    "prepack": "rm -rf lib && tsc",
     "test": "mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts"
