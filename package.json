@@ -1,7 +1,7 @@
 {
   "name": "@oclif/example-single-ts",
   "description": "example single command CLI built with dxcli",
-  "version": "1.7.22",
+  "version": "1.7.23",
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "example-single-ts": "./bin/run"
