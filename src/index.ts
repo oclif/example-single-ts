@@ -19,7 +19,7 @@ class OclifExampleSingleTs extends Command {
     const {args, flags} = this.parse(OclifExampleSingleTs)
 
     const name = flags.name || 'world'
-    this.log(`hello ${name} from ./src/commands/.ts!`)
+    this.log(`hello ${name} from ./src/index.ts`)
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
     }
