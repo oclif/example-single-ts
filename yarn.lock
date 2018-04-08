@@ -6,22 +6,22 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@heroku/linewrap/-/linewrap-1.0.0.tgz#a9d4e99f0a3e423a899b775f5f3d6747a1ff15c6"
 
-"@oclif/command@^1.4.7", "@oclif/command@^1.4.8":
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.8.tgz#6e641a24246707ba06b74b35698c362f7199bbb2"
+"@oclif/command@^1.4.7", "@oclif/command@^1.4.9":
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.9.tgz#009bd5bb717ceb445bb81f08767c17cd4e7c7f02"
   dependencies:
-    "@oclif/errors" "^1.0.3"
-    "@oclif/parser" "^3.2.9"
+    "@oclif/errors" "^1.0.4"
+    "@oclif/parser" "^3.2.11"
     debug "^3.1.0"
     semver "^5.5.0"
 
-"@oclif/config@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.4.0.tgz#086488e856ee11785e5af1188ce06265d2d48d54"
+"@oclif/config@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.4.3.tgz#38b3423c5ed09bc7e4d01bca10f59939c4168482"
   dependencies:
     debug "^3.1.0"
 
-"@oclif/errors@^1.0.3":
+"@oclif/errors@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@oclif/errors/-/errors-1.0.4.tgz#8e34386ede530484ae3c98bc21d818c416214c66"
   dependencies:
@@ -31,7 +31,7 @@
     strip-ansi "^4.0.0"
     wrap-ansi "^3.0.1"
 
-"@oclif/parser@^3.2.9":
+"@oclif/parser@^3.2.11":
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.2.11.tgz#03a5fef0c45dd1badd0375ae05b476e0c27faf40"
   dependencies:
