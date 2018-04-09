@@ -16,8 +16,8 @@
     semver "^5.5.0"
 
 "@oclif/config@1":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.4.3.tgz#38b3423c5ed09bc7e4d01bca10f59939c4168482"
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.4.5.tgz#45c81a1c266817720c780d5946fe59f8bd569964"
   dependencies:
     debug "^3.1.0"
 
@@ -32,8 +32,8 @@
     wrap-ansi "^3.0.1"
 
 "@oclif/parser@^3.2.11":
-  version "3.2.11"
-  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.2.11.tgz#03a5fef0c45dd1badd0375ae05b476e0c27faf40"
+  version "3.2.12"
+  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.2.12.tgz#1ff34a98fa73b2ecb8b2b11daf139b9e151b52c6"
   dependencies:
     "@heroku/linewrap" "^1.0.0"
     chalk "^2.3.2"
