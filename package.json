@@ -19,7 +19,7 @@
     "@types/node": "9",
     "chai": "4",
     "mocha": "5",
-    "ts-node": "5",
+    "ts-node": "^6.0.0",
     "tslib": "1",
     "typescript": "2.8"
   },
