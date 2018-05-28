@@ -1,3 +1,11 @@
+<a name="1.7.48"></a>
+## [1.7.48](https://github.com/oclif/example-single-ts/compare/v1.7.47...v1.7.48) (2018-05-28)
+
+
+### Bug Fixes
+
+* oclif v1.7.51 ([02a3d49](https://github.com/oclif/example-single-ts/commit/02a3d49))
+
 <a name="1.7.47"></a>
 ## [1.7.47](https://github.com/oclif/example-single-ts/compare/v1.7.46...v1.7.47) (2018-05-22)
 
