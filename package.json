@@ -13,17 +13,7 @@
     "@oclif/plugin-help": "^1",
     "tslib": "^1"
   },
-  "devDependencies": {
-    "@oclif/test": "^1",
-    "@types/chai": "^4",
-    "@types/mocha": "^5",
-    "@types/node": "^10",
-    "chai": "^4",
-    "mocha": "^5",
-    "nyc": "^11",
-    "ts-node": "^6",
-    "typescript": "^2.8"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=8.0.0"
   },
