@@ -44,6 +44,7 @@
   "scripts": {
     "posttest": "tsc -p test --noEmit",
     "prepack": "rm -rf lib && tsc",
+    "prepare": "rm -rf lib && tsc",
     "test": "nyc mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts"
