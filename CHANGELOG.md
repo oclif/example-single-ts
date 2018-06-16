@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/oclif/example-single-ts/compare/v1.8.3...v1.8.4) (2018-06-16)
+
+
+### Bug Fixes
+
+* oclif v1.8.5 ([22d3146](https://github.com/oclif/example-single-ts/commit/22d3146))
+
 ## [1.8.3](https://github.com/oclif/example-single-ts/compare/v1.8.2...v1.8.3) (2018-06-14)
 
 
