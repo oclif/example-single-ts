@@ -92,8 +92,8 @@
     semver "^5.5.0"
 
 "@oclif/config@^1":
-  version "1.6.28"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.28.tgz#bfda0718ba5dfbdeb364350990ed79540f9c3d0b"
+  version "1.6.31"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.31.tgz#10b97f16b8318b5b2eba0c1d6737e9c151ceb083"
   dependencies:
     debug "^3.1.0"
     tslib "^1.9.2"
@@ -113,8 +113,8 @@
   resolved "https://registry.yarnpkg.com/@oclif/linewrap/-/linewrap-1.0.0.tgz#aedcb64b479d4db7be24196384897b5000901d91"
 
 "@oclif/parser@^3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.5.1.tgz#2f60ac9773565786b6e1afff967b36a6399defcc"
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.5.2.tgz#541bd783463ea0b3717836a12de36cf2a73297de"
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.4.1"
