@@ -1,3 +1,16 @@
+# [1.9.0](https://github.com/oclif/example-single-ts/compare/v1.8.5...v1.9.0) (2018-08-17)
+
+
+### Bug Fixes
+
+* oclif v1.10.1 ([ab44316](https://github.com/oclif/example-single-ts/commit/ab44316)), closes [#149](https://github.com/oclif/example-single-ts/issues/149)
+
+
+### Features
+
+* oclif v1.10.0 ([41e9b7d](https://github.com/oclif/example-single-ts/commit/41e9b7d)), closes [#138](https://github.com/oclif/example-single-ts/issues/138) [#139](https://github.com/oclif/example-single-ts/issues/139)
+* oclif v1.9.0 ([15609b7](https://github.com/oclif/example-single-ts/commit/15609b7)), closes [#137](https://github.com/oclif/example-single-ts/issues/137)
+
 ## [1.8.5](https://github.com/oclif/example-single-ts/compare/v1.8.4...v1.8.5) (2018-07-02)
 
 
