@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/oclif/example-single-ts/compare/v1.9.1...v1.10.0) (2018-08-17)
+
+
+### Features
+
+* oclif v1.11.0 ([39dc063](https://github.com/oclif/example-single-ts/commit/39dc063))
+
 ## [1.9.1](https://github.com/oclif/example-single-ts/compare/v1.9.0...v1.9.1) (2018-08-17)
 
 
