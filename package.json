@@ -14,6 +14,7 @@
     "tslib": "^1"
   },
   "devDependencies": {
+    "@oclif/dev-cli": "^1",
     "@oclif/test": "^1",
     "@types/chai": "^4",
     "@types/mocha": "^5",
@@ -46,8 +47,9 @@
   "repository": "oclif/example-single-ts",
   "scripts": {
     "posttest": "eslint . --ext .ts --config .eslintrc",
-    "prepack": "rm -rf lib && tsc -b",
-    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\""
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
+    "version": "oclif-dev readme && git add README.md"
   },
   "types": "lib/index.d.ts"
 }

@@ -12,7 +12,24 @@ example single command CLI built with dxcli
 [![License](https://img.shields.io/npm/l/@oclif/example-single-ts.svg)](https://github.com/oclif/example-single-ts/blob/master/package.json)
 
 <!-- toc -->
+* [Usage](#usage)
+* [Commands](#commands)
+<!-- tocstop -->
 # Usage
 <!-- usage -->
+```sh-session
+$ npm install -g @oclif/example-single-ts
+$ example-single-ts COMMAND
+running command...
+$ example-single-ts (-v|--version|version)
+@oclif/example-single-ts/1.10.6 linux-x64 node-v13.3.0
+$ example-single-ts --help [COMMAND]
+USAGE
+  $ example-single-ts COMMAND
+...
+```
+<!-- usagestop -->
 # Commands
 <!-- commands -->
+
+<!-- commandsstop -->
