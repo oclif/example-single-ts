@@ -22,7 +22,7 @@ $ npm install -g @oclif/example-single-ts
 $ example-single-ts COMMAND
 running command...
 $ example-single-ts (-v|--version|version)
-@oclif/example-single-ts/1.10.6 linux-x64 node-v14.2.0
+@oclif/example-single-ts/1.10.6 linux-x64 node-v15.11.0
 $ example-single-ts --help [COMMAND]
 USAGE
   $ example-single-ts COMMAND
